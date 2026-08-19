@@ -1,0 +1,5 @@
+.internal-link.is-unresolved {
+    color: red !important;
+    text-decoration-color: red !important;
+    text-decoration-style: var(--link-unresolved-decoration-style);
+}
