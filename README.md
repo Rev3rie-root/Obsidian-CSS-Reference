@@ -22,6 +22,7 @@ Obsidian-CSS-Reference/
 ├── File Explorer/
 ├── Status Bar/
 ├── Properties/
+├── Mobile/
 ├── Modals/
 └── Images/
 ```
