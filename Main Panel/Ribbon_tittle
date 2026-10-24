@@ -1,0 +1,21 @@
+.inline-title {
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    width: calc(100% - 32px) !important;
+    margin-left: 16px;
+    background-color: var(--background-secondary-alt);
+    padding: 0.35em 0.8em;
+    margin-block: 1.2em 0.8em;
+    color: #A0A0A0;
+    font-variant: small-caps !important;
+}
+
+.inline-title::before {
+  content: "";
+  position: absolute;
+  inset: 0.35em -0.7em -0.3em;
+  background: linear-gradient(to right,  var(--background-secondary) 0 0.7em, transparent 0.75em calc(100% - 0.7em),  var(--background-secondary) calc(100% - 0.7em));
+  clip-path: polygon(0 0, 100% 0, calc(100% - 0.32em) 50%, 100% 100%, 0 100%, 0.32em 50%);
+  pointer-events: none;
+}
